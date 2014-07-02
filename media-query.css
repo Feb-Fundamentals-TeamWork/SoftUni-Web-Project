@@ -1,0 +1,35 @@
+@media all and (max-width: 940px) {
+	aside{
+		display: none;
+	}
+
+	#contentHolder{
+		width: 100%;
+	}
+
+	#contentHolder .postsContainer{
+		width: 100%;
+	}
+
+	header{
+		width: 100%;
+	}
+
+	#nav td{
+		padding: 0px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		display:block;
+		width: 100%;
+		margin-bottom: 2px;
+	}
+
+	#searchBox{
+		display: none;
+	}
+
+	.postInfo{
+		font-size: 16px;
+	}
+
+}

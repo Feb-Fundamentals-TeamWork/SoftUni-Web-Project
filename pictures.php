@@ -18,7 +18,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>Code Burner... A SoftUni Web Project</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		
@@ -37,12 +37,9 @@
 				}(document, 'script', 'facebook-jssdk'));
 			</script>
 		<header>
-
+			<img src="codeBurner.png" class="headLogo" alt="logo"/> 
+			<input type="text" placeholder="Search..." id="searchBox"/>
 			<table>
-				<tr>
-					<img src="codeBurner.png" class="headLogo"/> 
-					<input type="text" placeholder="Search..." id="searchBox"/>
-				</tr>
 				<tr id="nav">
 					<td onclick="location.href='index.php'">Начало</td>					
 					<td onclick="location.href='pictures.php'">Картинки</td>
@@ -61,7 +58,7 @@
 				<?php while($row=mysql_fetch_array($res)) { ?>
 					<div class="postPicture">
 						<h1 class="postTitle"><?php echo $row['title'] ?></h1>
-						<img src="<?php echo $row['image'] ?>" class="picture"/>
+						<img src="<?php echo $row['image'] ?>" class="picture" alt="postImage"/>
 						<div style="display:inline-block; margin-top:-8px;" class="rw-ui-container rw-urid-<?php
 						    echo  $row['post_id'] 
 						?>"></div>
@@ -70,29 +67,40 @@
 				<?php } ?>
 
 			</div>		
-
 			<aside>
-
-
 				<div class="aboutUs">
 					<h1 class="followUsOn">За нас:</h1>
 					<p id="forUs">
-						Ние сме сайт предлагащ многобройни картинки, видеота, вицове, teamwork идеи и информиращ за всякакви събития свързани в програмирането и информационните технологии.  
+						Ние сме сайт предлагащ многобройни картинки, видеa, вицове, teamwork идеи и информиращ за всякакви събития свързани в програмирането и информационните технологии.  
 					</p>	
-					<h1 class="followUsOn"></h1>
+					<h1 class="followUsOn">&nbsp;</h1>
 					<div class="fb-like-box" style="margin-left:6px;" data-href="https://www.facebook.com/codeburnertw" data-width="360" data-height="280" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>				
 				</div>
+
+				<h1 class="followUsOn">Валидиране:</h1>
+				<p style="display: block; margin-left: 10px;">
+					<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				    <img style="border:0;width:88px;height:31px"
+				        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+				        alt="Valid CSS!" />
+			        </a>
+				    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+				        <img style="border:0;width:88px;height:31px"
+				            src="http://jigsaw.w3.org/css-validator/images/vcss"
+				            alt="Valid CSS!" />
+				    </a>				
+				</p>
 
 				<div class="socialNetworks">
 					<h1 class="followUsOn">Последвайте ни и на:</h1>
 
 					<div class="socialIcons">
-						<img class="social" src="social/fb.png" />
-						<img class="social" src="social/git.png" />
-						<img class="social" src="social/twitter.png" />
-						<img class="social" src="social/instagram.png" />
-						<img class="social" src="social/linkedin.png" />
-						<img class="social" src="social/skype.png" />
+						<img class="social" src="social/fb.png" alt="social"/>
+						<img class="social" src="social/git.png" alt="social" />
+						<img class="social" src="social/twitter.png" alt="social"/>
+						<img class="social" src="social/instagram.png" alt="social"/>
+						<img class="social" src="social/linkedin.png" alt="social"/>
+						<img class="social" src="social/skype.png" alt="social"/>
 					</div>					
 				</div>
 

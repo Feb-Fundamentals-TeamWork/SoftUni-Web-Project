@@ -1,148 +1,152 @@
 body{
-				background: url('city.jpg') no-repeat center center fixed; 
-				-webkit-background-size: cover;
-				-moz-background-size: cover;
-				-o-background-size: cover;
-				background-size: cover;
-			}
+	background: url('city.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
-			#contentHolder{
-				width:930px;
-				min-height:135%;
-				background: white;
-				margin-left: auto;
-				margin-right: auto;
-				margin-bottom: 30px;
-				border: 2px solid #E64946;
-				margin-top: 20px;
-			}
+#contentHolder{
+	width:930px;
+	min-height:135%;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border: 2px solid #E64946;
+	margin-top: 20px;
+}
 
-			.postsContainer{
-				width: 60%;
-				text-align: center;
-				border-right: 2px solid black;
-				display: inline-block;
-			}
+.postsContainer{
+	width: 60%;
+	text-align: center;
+	border-right: 2px solid black;
+	display: inline-block;
+}
 
-			.postPicture{
-				width: 95%;
-			}
+.postPicture{
+	width: 95%;
+}
 
-			.picture{
-				width: 90%;
-			}
+.picture{
+	width: 90%;
+}
 
-			.videoHolder{
-				width: 100%;
-			}
-
-
-			.postTitle, .followUsOn{
-				margin-left: 10px;
-				width: 95%;
-				border-bottom: 2px solid red;
-				font-size: 26px;
-				font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-				text-align: left;
-			}
-
-			.postInfo{
-				font-size: 20px;
-				font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-				text-align: right;
-			}
-
-			.postInfo span{
-				color: red;
-			}
-
-			header{
-				width: 931px;
-				margin-right: auto;
-				margin-left: auto;
-				background: #E64946;
-			}
-
-			table{
-				width: 100%;
-				border: none;
-				margin: 0px;
-				padding: 0px;
-			}
-
-			table td{
-				height: 100%;
-				width: 15%;
-				background: #302D2C;
-				color: white;
-				font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-				text-align: center;
-				font-size: 17px;
-				padding: 10px;
-			}
+.videoHolder{
+	width: 100%;
+}
 
 
-			table td:hover{
-				background: #E64946;
-				cursor: pointer;
-			}
+.postTitle, .followUsOn{
+	margin-left: 10px;
+	width: 95%;
+	border-bottom: 2px solid red;
+	font-size: 26px;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	text-align: left;
+}
 
-			aside{
-				width: 365px;
-				min-height: 100%;
-				display: inline-block;				
-				position: absolute;
-			}
+.postInfo{
+	font-size: 20px;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	text-align: right;
+}
 
-			.socialNetworks, .aboutUs{
-				width: 100%;
-				height: 15%;
+.postInfo span{
+	color: red;
+}
 
-			}
+header{
+	width: 931px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #E64946;
+}
 
-			.socialIcons{
-				width: 100%;
-				text-align: center;
-			}
+table{
+	width: 100%;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
 
-			.social{
-				width: 35px;
-				margin-left: 10px;
-			}
+table td{
+	height: 100%;
+	width: 15%;
+	background: #302D2C;
+	color: white;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px;
+}
 
-			.social:hover{
-				cursor: pointer;
-			}
 
-			#forUs{
-				font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-				text-align: center;
-				font-size: 17px;
-				margin-left: 10px;
+table td:hover{
+	background: #E64946;
+	cursor: pointer;
+}
 
-			}
+aside{
+	width: 365px;
+	min-height: 100%;
+	display: inline-block;				
+	position: absolute;
+}
 
-			.headLogo{
-				width: 20%;
-				margin-left: 20px;
-			}
+.socialNetworks, .aboutUs{
+	width: 100%;
+	height: 15%;
 
-			.postDescription{
-				font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-				text-align: center;
-				font-size: 14px;
-				margin:10px;
-			}
+}
 
-			#searchBox{
-				width: 230px;
-				height: 30px;
-				border-radius: 5px;
-				position: absolute;
-				display: inline-block;
-				margin-left: 480px;
-				margin-top: 50px;
-				border: 1px solid #302D2C;
-				background: url('https://softuni.bg/Content/design/magn-glass-icon17.png') no-repeat scroll 213px 7px;
-				padding-left:10px;
-			}
+.socialIcons{
+	width: 100%;
+	text-align: center;
+}
+
+.social{
+	width: 35px;
+	margin-left: 10px;
+}
+
+.social:hover{
+	cursor: pointer;
+}
+
+#forUs{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	text-align: center;
+	font-size: 17px;
+	margin-left: 10px;
+
+}
+
+.headLogo{
+	width: 20%;
+	margin-left: 20px;
+}
+
+.postDescription{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	text-align: center;
+	font-size: 14px;
+	margin:10px;
+}
+
+#searchBox{
+	width: 230px;
+	height: 30px;
+	border-radius: 5px;
+	position: absolute;
+	display: inline-block;
+	margin-left: 480px;
+	margin-top: 50px;
+	border: 1px solid #302D2C;
+	background: url('https://softuni.bg/Content/design/magn-glass-icon17.png') no-repeat scroll 213px 7px;
+	padding-left:10px;
+}
+
+.validCss{
+	margin-left: 10px;
+}
